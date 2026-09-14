@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>STP Informes | Visibilidad total sobre tus transferencias SPEI</title>
+  <meta name="description" content="STP Informes centraliza reportes en tiempo real, conciliación automática y analítica de transferencias SPEI en una sola plataforma.">
+  <meta name="theme-color" content="#052548">
+  <link rel="icon" href="../assets/icon-stp.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header" id="inicio">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="STP Informes, inicio">
+        <img src="../assets/stp-informes-logo.png" alt="STP Informes" width="161" height="32">
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+        <a href="#caracteristicas">Características</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#seguridad">Seguridad</a>
+        <a href="#integraciones">Integraciones</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="login-link" href="#contacto">Iniciar sesión</a>
+        <a class="button button-small" href="#contacto">Solicitar acceso</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero section-dark" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <h1 id="hero-title">Visibilidad total sobre <span>tus transferencias SPEI</span></h1>
+          <p>Accede a reportes en tiempo real, conciliación automática y analítica avanzada de todas tus operaciones interbancarias en un solo panel.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contacto">Solicitar acceso gratuito <span aria-hidden="true">→</span></a>
+            <button class="button button-ghost" type="button" data-scroll-to="#demo">
+              <span class="play-icon" aria-hidden="true">
+                <img src="../assets/play.png" alt="Demo">
+              </span> Ver demo
+            </button>
+          </div>
+          <ul class="trust-row" aria-label="Atributos de la plataforma">
+            <li><span aria-hidden="true">🔒</span> Cifrado 256-bit</li>
+            <li><span aria-hidden="true">✅</span> Regulado por Banxico</li>
+            <li><span aria-hidden="true">⚡</span> 99.98% uptime</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal" aria-label="Indicadores operativos simulados">
+          <article class="float-card float-a">
+            <span class="eyebrow-dot"><i></i> Transacciones hoy</span>
+            <strong>$4.2B</strong>
+            <small>↑ 12.4% vs ayer</small>
+          </article>
+          <article class="float-card float-b compact">
+            <span class="status-icon success">
+              <img src="../assets/check.png" alt="Conciliacion completa">
+            </span>
+            <div><strong>Conciliación completa</strong><small>12,847 operaciones</small></div>
+          </article>
+          <article class="float-card float-c compact">
+            <span class="status-icon warning">
+              <img src="../assets/warning.png" alt="Rechazo detectado">
+            </span>
+            <div><strong>1 rechazo detectado</strong><small>TXN-2026-09-004 · Inbursa</small></div>
+          </article>
+          <article class="float-card float-d latency-card">
+            <small>Latencia promedio</small>
+            <strong>38 ms</strong>
+            <span class="latency-line"><i></i></span>
+            <small>SLA: &lt;200 ms</small>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Métricas de operación">
+      <div class="container stats-grid">
+        <article class="metric reveal"><strong data-counter="18400000" data-suffix="+">18,400,000+</strong><span>Transacciones diarias</span><small>operaciones SPEI</small></article>
+        <article class="metric reveal"><strong data-counter="180" data-suffix="+">180+</strong><span>Instituciones conectadas</span><small>bancos y fintech</small></article>
+        <article class="metric reveal"><strong data-counter="100" data-suffix="%">100%</strong><span>Disponibilidad</span><small>SLA garantizado</small></article>
+        <article class="metric reveal"><strong data-counter="97" data-suffix="%">97%</strong><span>Conciliadas automático</span><small>sin intervención</small></article>
+      </div>
+    </section>
+
+    <section class="features" id="caracteristicas" aria-labelledby="features-title">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="kicker">PLATAFORMA COMPLETA</p>
+          <h2 id="features-title">Todo lo que necesitas para gestionar<br>tus operaciones interbancarias</h2>
+          <p>Una sola plataforma para monitorear, conciliar y analizar todas tus transferencias SPEI.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">
+              <img src="../assets/Reportes.png" alt="Reportes en tiempo real">
+            </div>
+            <h3>Reportes en tiempo real</h3>
+            <span class="chip chip-blue">Core</span>
+            <p>Consulta el estado de cada transferencia SPEI al instante. Filtra por monto, institución, fecha o estatus con respuesta en milisegundos.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">
+              <img src="../assets/Conciliacion.png" alt="Conciliacion automatica">
+            </div>
+            <h3>Conciliación automática</h3>
+            <span class="chip chip-blue">Automatización</span>
+            <p>Compara automáticamente tus registros internos con los movimientos SPEI. Detecta discrepancias y genera reportes de diferencias en segundos.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">
+              <img src="../assets/Analitica.png" alt="Analitica avanzada">
+            </div>
+            <h3>Analítica avanzada</h3>
+            <span class="chip chip-cyan">Inteligencia</span>
+            <p>Dashboards interactivos con tendencias históricas, distribución por tipo de operación, horarios pico y métricas clave para decisiones estratégicas.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">
+              <img src="../assets/Alertas.png" alt="Alertas inteligentes">
+            </div>
+            <h3>Alertas inteligentes</h3>
+            <span class="chip chip-orange">Monitoreo</span>
+            <p>Configura notificaciones por umbrales de monto, errores de validación, rechazos o comportamiento inusual. Multi-canal: email, SMS y webhooks.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">
+              <img src="../assets/Exportacion.png" alt="Exportacion flexible">
+            </div>
+            <h3>Exportación flexible</h3>
+            <span class="chip chip-green">Integración</span>
+            <p>Descarga tus reportes en CSV, XLSX, PDF o JSON. Compatible con SAP, Oracle y sistemas contables. Programa envíos automáticos a tu equipo.</p>
+          </article>
+          <article class="feature-card reveal" id="integraciones">
+            <div class="feature-icon" aria-hidden="true">
+              <img src="../assets/Api.png" alt="API Restful">
+            </div>
+            <h3>API RESTful</h3>
+            <span class="chip chip-purple">Desarrollo</span>
+            <p>Integra los informes STP directamente en tu plataforma. Documentación OpenAPI, SDKs en Python, Node y Java, y ambiente sandbox incluido.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="how section-dark" id="como-funciona" aria-labelledby="how-title">
+      <div class="container">
+        <div class="how-top reveal">
+          <div>
+            <p class="kicker">PROCESO SIMPLIFICADO</p>
+            <h2 id="how-title">Operacional<br>en minutos.</h2>
+          </div>
+          <p>Sin semanas de integración. Sin consultores externos.<br>Solo credenciales y listo.</p>
+        </div>
+
+        <div class="steps-grid">
+          <article class="step reveal"><strong>01</strong><i></i><h3>Conecta tu cuenta STP</h3><p>Autentica con tus credenciales institucionales. Soporte para CLABE, RFC y certificados digitales del Banco de México.</p><small>● &nbsp;PASO 01</small></article>
+          <article class="step reveal"><strong>02</strong><i></i><h3>Configura tus filtros</h3><p>Define rangos de fecha, instituciones contraparte, tipos de operación y umbrales de monto para tus reportes personalizados.</p><small>● &nbsp;PASO 02</small></article>
+          <article class="step reveal"><strong>03</strong><i></i><h3>Genera reportes al instante</h3><p>Descarga o programa el envío automático de reportes. Conciliación cruzada en tiempo real contra tu ERP o sistema contable.</p><small>● &nbsp;PASO 03</small></article>
+          <article class="step reveal"><strong>04</strong><i></i><h3>Actúa con información</h3><p>Recibe alertas proactivas, delega tareas a tu equipo y mantén una trazabilidad completa de cada operación.</p><small>● &nbsp;PASO 04</small></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="security section-dark" id="seguridad" aria-labelledby="security-title">
+      <div class="container security-grid">
+        <div class="security-copy reveal">
+          <p class="kicker">SEGURIDAD INSTITUCIONAL</p>
+          <h2 id="security-title">Construido para la infraestructura financiera más crítica de México</h2>
+          <p>STP Informes opera bajo los mismos estándares de seguridad que el sistema SPEI. Cada byte de tus datos está protegido con infraestructura de nivel bancario.</p>
+          <a class="button button-ghost" href="#contacto">Ver políticas de seguridad <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="security-cards">
+          <article class="security-card reveal"><span aria-hidden="true">🔐</span><h3>TLS 1.3 + AES-256</h3><p>Cifrado en tránsito y en reposo</p></article>
+          <article class="security-card reveal"><span aria-hidden="true">🏛️</span><h3>Regulado Banxico</h3><p>Cumplimiento CNBV y Circular 14</p></article>
+          <article class="security-card reveal"><span aria-hidden="true">🛡️</span><h3>ISO 27001</h3><p>Gestión de seguridad certificada</p></article>
+          <article class="security-card reveal"><span aria-hidden="true">🔑</span><h3>MFA obligatorio</h3><p>Autenticación multifactor</p></article>
+          <article class="security-card reveal"><span aria-hidden="true">📋</span><h3>Auditoría continua</h3><p>Logs inmutables de acceso</p></article>
+          <article class="security-card reveal"><span aria-hidden="true">⚡</span><h3>DR activo-activo</h3><p>Alta disponibilidad 24/7/365</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="demo" id="demo" aria-labelledby="demo-title">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="kicker">VISTA PREVIA EN VIVO</p>
+          <h2 id="demo-title">Así se ve tu panel de operaciones</h2>
+          <p>Datos simulados actualizados en tiempo real. Tu panel real<br>conectará con el flujo SPEI de tu institución.</p>
+        </div>
+
+        <div class="dashboard reveal" role="region" aria-label="Vista previa del panel de transacciones" tabindex="0">
+          <div class="dashboard-toolbar">
+            <div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+            <span class="live-label"><i></i> Transmisión en vivo · <span id="live-date">9/9/2026</span></span>
+            <div class="toolbar-actions"><button type="button">Exportar</button><button type="button" class="filter-btn">Filtros</button></div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <caption class="sr-only">Transacciones SPEI simuladas</caption>
+              <thead><tr><th>ID transacción</th><th>Institución origen</th><th>Institución destino</th><th>Monto (MXN)</th><th>Estatus</th><th>Hora</th></tr></thead>
+              <tbody id="transaction-body">
+                <tr><td>TXN-2026-09-956</td><td>Scotiabank</td><td>Santander</td><td>$125,623.94</td><td><span class="status pending">En proceso</span></td><td>10:43:16</td></tr>
+                <tr><td>TXN-2026-09-355</td><td>Scotiabank</td><td>Banorte</td><td>$198,994.04</td><td><span class="status pending">En proceso</span></td><td>10:43:13</td></tr>
+                <tr><td>TXN-2026-09-873</td><td>Banorte</td><td>Inbursa</td><td>$441,174.21</td><td><span class="status rejected">Rechazado</span></td><td>10:43:10</td></tr>
+                <tr><td>TXN-2026-09-929</td><td>Inbursa</td><td>BBVA México</td><td>$469,674.75</td><td><span class="status processed">Procesado</span></td><td>10:43:07</td></tr>
+                <tr><td>TXN-2026-09-750</td><td>Banorte</td><td>Banamex</td><td>$144,233.48</td><td><span class="status pending">En proceso</span></td><td>10:43:04</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="dashboard-footer"><span>Mostrando 5 de 18,432,017 operaciones</span><nav aria-label="Paginación"><button class="active" type="button">1</button><button type="button">2</button><button type="button">3</button><span>…</span><button type="button">12</button></nav></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="kicker">TESTIMONIOS</p>
+          <h2 id="testimonials-title">Instituciones que confían en nosotros</h2>
+        </div>
+        <div class="testimonial-grid">
+          <article class="testimonial reveal"><div class="stars" aria-label="5 de 5 estrellas">★★★★★</div><blockquote>“Redujimos el tiempo de conciliación de 3 horas a 8 minutos. STP Informes transformó completamente nuestros procesos de tesorería.”</blockquote><footer><span class="avatar">VM</span><div><strong>Valentina Morales</strong><small>Directora de Tesorería · Grupo Financiero Banorte</small></div></footer></article>
+          <article class="testimonial reveal"><div class="stars" aria-label="5 de 5 estrellas">★★★★★</div><blockquote>“La API fue increíblemente sencilla de integrar. En dos días ya teníamos los reportes embebidos en nuestro ERP SAP. Soporte excelente.”</blockquote><footer><span class="avatar">RC</span><div><strong>Rodrigo Castellanos</strong><small>CTO · Fintech Kapital</small></div></footer></article>
+          <article class="testimonial reveal"><div class="stars" aria-label="5 de 5 estrellas">★★★★★</div><blockquote>“Las alertas automáticas nos permitieron detectar un patrón inusual de transferencias antes de que escalara. Indispensable para cumplimiento.”</blockquote><footer><span class="avatar">DF</span><div><strong>Diana Fuentes</strong><small>Gerente de Operaciones · Afirme Banco</small></div></footer></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contacto" aria-labelledby="cta-title">
+      <div class="container cta-inner reveal">
+        <p class="kicker">EMPIEZA HOY</p>
+        <h2 id="cta-title">Solicita acceso a<br>STP Informes</h2>
+        <p>Completa el formulario de solicitud y un especialista de STP se<br>pondrá en contacto en menos de 24 horas hábiles.</p>
+        <form class="access-form" novalidate>
+          <div class="field-wrap">
+            <label class="sr-only" for="email">Correo empresarial</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="correo@empresa.com.mx" required aria-describedby="form-message">
+          </div>
+          <button class="button button-light" type="submit">Solicitar acceso</button>
+        </form>
+        <p class="form-message" id="form-message" aria-live="polite">Solo para instituciones financieras registradas ante Banxico · Sin costo de evaluación</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+          <a href="#inicio">
+              <img src="../assets/stp-informes-logo-black.png" alt="STP Informes - Sistema de Transferencias y Pagos" class="brand-img">
+          </a>
+          <p>
+            Sistema de Transferencias y Pagos.<br>
+            La infraestructura SPEI de México.
+          </p>
+      </div>
+      <div><h2>Plataforma</h2><a href="#caracteristicas">Reportes</a><a href="#caracteristicas">Conciliación</a><a href="#caracteristicas">Analítica</a><a href="#caracteristicas">Alertas</a><a href="#integraciones">API</a></div>
+      <div><h2>Empresa</h2><a href="https://www.stp.mx/" target="_blank" rel="noopener noreferrer">Acerca de STP</a><a href="https://stp.mx/blog">Noticias</a><a href="https://stp.mx/es/sobre-stp">Carreras</a><a href="#contacto">Contacto</a></div>
+      <div><h2>Legal</h2><a target="_blank" href="https://stp.mx/terminos-y-condiciones-stp">Términos de uso</a><a target="_blank" href="https://stp.mx/aviso-de-privacidad-clientes">Privacidad</a><a href="#seguridad">Seguridad</a><a href="#seguridad">Cumplimiento</a></div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 S.T.P. S.A. de C.V. SOFOM E.N.R. · Regulada por Banxico y CNBV</p>
+      <div><a href="https://x.com/stpfintech?lang=es" target="_blank" rel="noopener noreferrer">X / Twitter</a><a href="https://www.linkedin.com/company/stpfintech/home/" target="_blank" rel="noopener noreferrer">LinkedIn</a>Gitub</div>
+    </div>
+  </footer>
+</body>
+</html>
